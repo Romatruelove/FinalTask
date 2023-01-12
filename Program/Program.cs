@@ -8,9 +8,9 @@
     }
     for (int j = 0; j <= count; j++)
     {
-        if (j == 0) Console.Write($"[\"{array[j]},\" ");
-        else if (j == count - 1) Console.Write($"\"{array[j]}\"]");
-        else if (j < count - 1) Console.Write($"\"{array[j]}\", ");
+        if (j == 0) Console.Write($"[{array[j]}, ");
+        else if (j == count - 1) Console.Write($"{array[j]}]");
+        else if (j < count - 1) Console.Write($"{array[j]}, ");
     }
     Console.WriteLine();
     return array;
